@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>
+      CSS Positioning V2 - Absolute, Fixed and Sticky [Bonus - Z-Index]
+    </title>
+  </head>
+  <body>
+    <div id="parent">
+      <div class="red"></div>
+      <div class="blue"></div>
+      <div class="blueClone"></div>
+      <div class="purple"></div>
+      <div class="green"></div>
+
+      <p>
+        ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+        eveniet harum quasi excepturi, numquam impedit tempora quaerat iste
+        molestias libero, quos odio deserunt. Quaerat obcaecati ipsum aut minus,
+        alias molestias! ipsum Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Tenetur eveniet harum quasi excepturi, numquam impedit
+        tempora quaerat iste molestias libero, quos odio deserunt. Quaerat
+        obcaecati ipsum aut minus, alias molestias! ipsum Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Tenetur eveniet harum quasi
+        excepturi, numquam impedit tempora quaerat iste molestias libero, quos
+        odio deserunt. Quaerat obcaecati ipsum aut minus, alias molestias!
+      </p>
+
+      <p></p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ea,
+        velit dignissimos sequi asperiores hic illo unde totam ipsa culpa saepe
+        ab alias recusandae odio explicabo impedit. Iusto, pariatur nihil!
+        Facere possimus molestias ipsum repellendus suscipit? Sunt ea blanditiis
+        magnam at tempore fugit! Inventore placeat nemo perspiciatis voluptatem
+        ad iusto iure animi amet officia doloribus, non culpa eligendi. Quas,
+        excepturi. Provident quia repudiandae, in amet quasi magni voluptates
+        aliquam? Saepe, fugiat? Eos consequuntur nisi quis natus? Reiciendis
+        consequatur tempore necessitatibus eaque numquam sequi minus, doloremque
+        magnam molestias placeat earum impedit. Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Accusantium ea, velit dignissimos sequi
+        asperiores hic illo unde totam ipsa culpa saepe ab alias recusandae odio
+        explicabo impedit. Iusto, pariatur nihil! Facere possimus molestias
+        ipsum repellendus suscipit? Sunt ea blanditiis magnam at tempore fugit!
+        Inventore placeat nemo perspiciatis voluptatem ad iusto iure animi amet
+        officia doloribus, non culpa eligendi. Quas, excepturi. Provident quia
+        repudiandae, in amet quasi magni voluptates aliquam? Saepe, fugiat? Eos
+        consequuntur nisi quis natus? Reiciendis consequatur tempore
+        necessitatibus eaque numquam sequi minus, doloremque magnam molestias
+        placeat earum impedit. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Accusantium ea, velit dignissimos sequi asperiores hic
+        illo unde totam ipsa culpa saepe ab alias recusandae odio explicabo
+        impedit. Iusto, pariatur nihil! Facere possimus molestias ipsum
+        repellendus suscipit? Sunt ea blanditiis magnam at tempore fugit!
+        Inventore placeat nemo perspiciatis voluptatem ad iusto iure animi amet
+        officia doloribus, non culpa eligendi. Quas, excepturi. Provident quia
+        repudiandae, in amet quasi magni voluptates aliquam? Saepe, fugiat? Eos
+        consequuntur nisi quis natus? Reiciendis consequatur tempore
+        necessitatibus eaque numquam sequi minus, doloremque magnam molestias
+        placeat earum impedit. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Accusantium ea, velit dignissimos sequi asperiores hic
+        illo unde totam ipsa culpa saepe ab alias recusandae odio explicabo
+        impedit. Iusto, pariatur nihil! Facere possimus molestias ipsum
+        repellendus suscipit? Sunt ea blanditiis magnam at tempore fugit!
+        Inventore placeat nemo perspiciatis voluptatem ad iusto iure animi amet
+        officia doloribus, non culpa eligendi. Quas, excepturi. Provident quia
+        repudiandae, in amet quasi magni voluptates aliquam? Saepe, fugiat? Eos
+        consequuntur nisi quis natus? Reiciendis consequatur tempore
+        necessitatibus eaque numquam sequi minus, doloremque magnam molestias
+        placeat earum impedit. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Accusantium ea, velit dignissimos sequi asperiores hic
+        illo unde totam ipsa culpa saepe ab alias recusandae odio explicabo
+        impedit. Iusto, pariatur nihil! Facere possimus molestias ipsum
+        repellendus suscipit? Sunt ea blanditiis magnam at tempore fugit!
+        Inventore placeat nemo perspiciatis voluptatem ad iusto iure animi amet
+        officia doloribus, non culpa eligendi. Quas, excepturi. Provident quia
+        repudiandae, in amet quasi magni voluptates aliquam? Saepe, fugiat? Eos
+        consequuntur nisi quis natus? Reiciendis consequatur tempore
+        necessitatibus eaque numquam sequi minus, doloremque magnam molestias
+        placeat earum impedit. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Accusantium ea, velit dignissimos sequi asperiores hic
+        illo unde totam ipsa culpa saepe ab alias recusandae odio explicabo
+        impedit. Iusto, pariatur nihil! Facere possimus molestias ipsum
+        repellendus suscipit? Sunt ea blanditiis magnam at tempore fugit!
+        Inventore placeat nemo perspiciatis voluptatem ad iusto iure animi amet
+        officia doloribus, non culpa eligendi. Quas, excepturi. Provident quia
+        repudiandae, in amet quasi magni voluptates aliquam? Saepe, fugiat? Eos
+        consequuntur nisi quis natus? Reiciendis consequatur tempore
+        necessitatibus eaque numquam sequi minus, doloremque magnam molestias
+        placeat earum impedit. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Accusantium ea, velit dignissimos sequi asperiores hic
+        illo unde totam ipsa culpa saepe ab alias recusandae odio explicabo
+        impedit. Iusto, pariatur nihil! Facere possimus molestias ipsum
+        repellendus suscipit? Sunt ea blanditiis magnam at tempore fugit!
+        Inventore placeat nemo perspiciatis voluptatem ad iusto iure animi amet
+        officia doloribus, non culpa eligendi. Quas, excepturi. Provident quia
+        repudiandae, in amet quasi magni voluptates aliquam? Saepe, fugiat? Eos
+        consequuntur nisi quis natus? Reiciendis consequatur tempore
+        necessitatibus eaque numquam sequi minus, doloremque magnam molestias
+        placeat earum impedit.
+      </p>
+    </div>
+  </body>
+</html>

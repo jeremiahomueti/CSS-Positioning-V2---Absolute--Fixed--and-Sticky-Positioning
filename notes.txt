@@ -1,0 +1,23 @@
+Absolute positioning elements are not positioned based on 
+themselves, as we saw with Relative positioning. 
+
+They are rather positioned based on the surrounding, or 
+containing elements.
+
+In Absolute Positioning, you are always working with two 
+elements. There's always a parent element, that is the
+containing element that comes in to play with absolute 
+positioning.
+
+
+Absolute positioning displaces elements from the document flow.
+
+So, if box1 drops down from a stack of three boxes, leaving 
+2 boxes under it. The remaining 2 boxes will move up to replace
+the space box1 formerly occupied - almost as though it doesn't 
+exist and is instantly forgotten.
+
+
+For Z-Index, the element or object with the highest number gets
+to be in Front Order. So an element with a z-index of 3 will 
+overlap or superimpose an element with a z-index of 2. And 2, 1.

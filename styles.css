@@ -1,0 +1,63 @@
+#parent{
+    /* hash (#) is for id  */
+    width: 500px;
+    height: 500px;
+    background: yellow;
+    position: relative; 
+    /* whenever you are working with absolutes, you have to remember
+    to set the position of the parent as well. 
+
+    So in this case, we set it to relative */
+    overflow: auto;
+}
+
+.red{
+    /* while dots (.) are for classes. Heehaaw!! Goh ih! */
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.blue{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    position: relative;
+    left: 200px;
+}
+
+.blueClone{
+    width: 100px;
+    height: 100px;
+    background: content-box radial-gradient(grey, blue);
+    position: fixed;
+    /* Unlike the relative position that offsets from itself; and
+    the absolute that offsets from the parent container, 
+    'fixed' positions actually do offset from the viewport. 
+
+    That is, the actual page of your browser. Interesting eiyy?
+
+    Huh huh!! 😂 Def didn't see that one coming. */
+
+    bottom: 200px;
+}
+
+
+.purple{
+    width: 100px;
+    height: 100px;
+    background: purple;
+    position: sticky;
+    /* Sticky position is often associated or used in pages that 
+    are scrollable, or may need to be scrollable. 
+
+    Now, to make sure the page is scrollable, go to the parent
+    element and make sure it has an overflow of auto. */
+    top: 0px;
+}
+
+.green{
+    width: 100px;
+    height: 100px;
+    background: green;
+}
